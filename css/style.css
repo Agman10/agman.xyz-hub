@@ -21,6 +21,10 @@ body{
     
 }
 
+#A{
+    fill: rgb(100, 70, 200);
+}
+
 @media only screen and (max-width: 750px){
     #wrap{
         width: 100%;
@@ -100,6 +104,9 @@ padding-right: 2px;
     float: right;
     
 }
+/* .modal-content{
+    background-color: black;
+} */
 /*
 .img-responsive{
     width: 350px;

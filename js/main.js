@@ -3,11 +3,13 @@ var modalTitle = document.getElementById("exampleModalLongTitle");
 var modalText = document.getElementById("modal-text")
 var modalLink = document.getElementById("modal-link");
 var image = document.getElementById("modal-image");
+var logo = document.getElementById("logo");
+document.getElementById("wrap").style.background = "white";
 
 function modalFunction1() {
     modalTitle.innerHTML = "Title";
     modalText.innerHTML = "Lorem ipsum dolor sit amet, eu nam alii vocibus, eu nec omittam splendide moderatius. Veri volumus adipisci ne sit. Regione aliquando mediocritatem cum at, usu te principes accommodare complectitur, paulo doming cum te. Blandit voluptaria eum id, ne prima feugiat verterem has. Graece semper mel no, atqui movet equidem qui et.";
-    modalLink.innerHTML = "Link:";
+    modalLink.innerHTML = "Link: ";
     image.src = "images/placeholder2.png"
     
 }
@@ -18,6 +20,27 @@ function modalFunction2() {
     image.src = "images/placeholder3.png"
     
 }
+
+function Theme() {
+    
+
+
+    if (document.getElementById("wrap").style.background === "white") {
+        document.getElementById("wrap").style.background = "#232323";
+    } else {
+        document.getElementById("wrap").style.background = "white";
+    }
+    
+    console.log("hello")
+
+    console.log(darkMode ? "LightMode" : "DarkMode");
+
+    document.body.style.background = darkMode ? "white" : "black";
+    document.body.style.background ="#000000";
+    document.getElementById("wrap").style.background = "#232323";
+    
+}
+
 
 
 /*var portfolie = document.getElementById("image")
