@@ -1,0 +1,159 @@
+body{
+    background-color: #bbbbbb;
+    margin: 0;
+}
+#wrap{
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    /* height: 100vh; */
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+
+}
+#logo{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    fill: black;
+    
+}
+
+@media only screen and (max-width: 750px){
+    #wrap{
+        width: 100%;
+    }
+}
+
+.container {
+    position: relative;
+    width: 320px;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+#image{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+#modal-image{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.text-block{
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+#modal-button{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+}
+
+#overlay{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 100vh;
+    max-height: 200vh;
+    
+}
+#window{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: block;
+    background: white;
+    width: 90%;
+    height: 0vh;
+    max-width: 600px;
+    max-height: 600px;
+
+}
+#window-text{
+position: absolute;
+left: 0px;
+right: 0px;
+background-color: rgba(0, 0, 0, 1);
+color: white;
+padding-top: 2px;
+padding-left: 2px;
+padding-right: 2px; 
+}
+#close-button{
+    padding: .100rem .500rem;
+    float: right;
+    
+}
+/*
+.img-responsive{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+#card-text{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    background-color: rgba(0, 204, 255, 0.534);
+    transform: translate(-50%, -50%);
+    width: 70%;
+    position: absolute;
+    top: 60%;
+    color: red;
+    background-color: rgba(0, 140, 255, 0.342);
+    width: 350px;
+    height: 40%;
+    max-width: 60%;
+}
+#text-test{
+    bottom: 16px;
+    left: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+#ok{
+    border: 20px;
+    color: red;
+    text-align: center;
+}
+
+#picture{
+    background-color: blue;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#image{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/

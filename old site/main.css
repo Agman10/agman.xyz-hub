@@ -1,0 +1,95 @@
+body{
+    color: #191919;
+    background: #e5e5e5;
+    margin: 0;
+    /*width: 70%;*/
+
+}
+
+#wrap{
+    background: white;
+    margin: 0 auto;
+    display: block;
+    height: 100vh;
+    width: 60%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /*body{
+        width: 100%;
+    }*/
+    #wrap{
+        width: 100%;
+    }
+}
+
+#navbar{
+    /*(11, 165, 11, 0.7);*/
+    height: 52px;
+    background-color: #41c641;
+    /*background-color: rgba(241, 57, 57, 0.6);*/
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+#navbartext{
+    background: none;
+    border: none;
+    font-size: 32px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    /*padding: 15px 32px;*/
+    /*bottom: 20px;*/
+    left: 5px
+    /*position: absolute;*/
+    /*width: 32px;*/
+}
+button:focus{
+    outline: none;
+}
+#text{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#testt{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#themeButton{
+    background-color: #dbdbdb;
+    color: black;
+    border: solid 1px black;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+/*#colors{
+    background-color: #dbdbdb;
+    color: black;
+    border: solid 1px black;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    bottom: 10px;
+    right: 310px;
+    position: absolute;
+}*/
