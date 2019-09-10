@@ -6,6 +6,7 @@ var image = document.getElementById("modal-image");
 
 
 var darkMode = false;
+console.log("darkMode: " + darkMode);
 var wrap = document.getElementById("wrap");
 var logo = document.getElementById("logo");
 var modalBackground = document.getElementById("modalContent");
@@ -22,6 +23,8 @@ function modalFunction1() {
     modalText.innerHTML = "Lorem ipsum dolor sit amet, eu nam alii vocibus, eu nec omittam splendide moderatius. Veri volumus adipisci ne sit. Regione aliquando mediocritatem cum at, usu te principes accommodare complectitur, paulo doming cum te. Blandit voluptaria eum id, ne prima feugiat verterem has. Graece semper mel no, atqui movet equidem qui et.";
     modalLink.innerHTML = "Visit the website here";
     image.src = "images/placeholder2.png"
+    image.alt = "placeholder2"
+    modalLink.href = "https://agman.xyz/"
     
 }
 function modalFunction2() {
@@ -29,19 +32,23 @@ function modalFunction2() {
     modalText.innerHTML = "Eu impedit laboramus his, sea assum voluptua scripserit ne, sea zril labore constituto ex. Eu vis dicta fastidii argumentum, nominati eleifend repudiandae has eu. Vim omnis dictas electram ei, vel persius dissentiet disputationi ad, soleat molestie eu sit. Eu stet conclusionemque eum, et eos erat dicam corrumpit. Eu usu forensibus concludaturque, eu illum praesent duo. Nemore verterem oportere nec ea, quo ne lobortis platonem incorrupte.";
     modalLink.innerHTML = "Link: 2";
     image.src = "images/placeholder3.png"
-    
+    image.alt = "placeholder3"
+    modalLink.href = "https://agman.xyz/"
 }
 
+//When you click the logo dark mode turns on and off, changes the colors to dark and bright
 logo.addEventListener("click", function(){
-    darkMode = !darkMode
+    darkMode = !darkMode //darkmode switches from false to true
+    console.log("darkMode: " + darkMode);
 
+    document.body.style.background = darkMode ? "#111111" : "#bbbbbb"; //When darkmode is true background get dark, when it's false it gets bright
     document.body.style.color = darkMode ? "white" : "#232323";
-    document.body.style.background = darkMode ? "#111111" : "#bbbbbb";
     document.getElementsByTagName('a')[0].style.color = darkMode ? "#7dafff" : "#007bff";
     wrap.style.background = darkMode ? "#232323" : "white";
     logo.style.fill = darkMode ? "white" : "black";
     modalBackground.style.background = darkMode ? "#232323" : "white";
-    //modalClose.style.color  = darkMode ? "rgb(240, 80, 80)" : "rgb(170, 40, 40)";
+    modalClose.style.color  = darkMode ? "rgb(240, 80, 80)" : "rgb(210, 50, 50)";
+    
     
 });
 /* function Theme() {
