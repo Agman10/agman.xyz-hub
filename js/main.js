@@ -3,13 +3,24 @@ var modalTitle = document.getElementById("exampleModalLongTitle");
 var modalText = document.getElementById("modal-text")
 var modalLink = document.getElementById("modal-link");
 var image = document.getElementById("modal-image");
+
+
+var darkMode = false;
+var wrap = document.getElementById("wrap");
 var logo = document.getElementById("logo");
-document.getElementById("wrap").style.background = "white";
+var modalBackground = document.getElementById("modalContent");
+var modalClose = document.getElementById("modalClose");
+
+//style
+
+/* document.body.style.background = "#bbbbbb";
+wrap.style.background = "white";
+logo.style.fill = "black"; */
 
 function modalFunction1() {
     modalTitle.innerHTML = "Title";
     modalText.innerHTML = "Lorem ipsum dolor sit amet, eu nam alii vocibus, eu nec omittam splendide moderatius. Veri volumus adipisci ne sit. Regione aliquando mediocritatem cum at, usu te principes accommodare complectitur, paulo doming cum te. Blandit voluptaria eum id, ne prima feugiat verterem has. Graece semper mel no, atqui movet equidem qui et.";
-    modalLink.innerHTML = "Link: ";
+    modalLink.innerHTML = "Visit the website here";
     image.src = "images/placeholder2.png"
     
 }
@@ -21,25 +32,52 @@ function modalFunction2() {
     
 }
 
-function Theme() {
+logo.addEventListener("click", function(){
+    darkMode = !darkMode
+
+    document.body.style.color = darkMode ? "white" : "#232323";
+    document.body.style.background = darkMode ? "#111111" : "#bbbbbb";
+    document.getElementsByTagName('a')[0].style.color = darkMode ? "#7dafff" : "#007bff";
+    wrap.style.background = darkMode ? "#232323" : "white";
+    logo.style.fill = darkMode ? "white" : "black";
+    modalBackground.style.background = darkMode ? "#232323" : "white";
+    //modalClose.style.color  = darkMode ? "rgb(240, 80, 80)" : "rgb(170, 40, 40)";
     
+});
+/* function Theme() {
 
+    wrap.style.background = "white" ? "black" : "white"; */
 
-    if (document.getElementById("wrap").style.background === "white") {
-        document.getElementById("wrap").style.background = "#232323";
+    /* if (document.body.style.background === "#bbbbbb") {
+        document.body.style.background = "#111111";
     } else {
-        document.getElementById("wrap").style.background = "white";
+        document.body.style.background = "#bbbbbb";
     }
+
+    if (wrap.style.background === "white") {
+        wrap.style.background = "#232323";
+    } else {
+        wrap.style.background = "white";
+    }
+
+    if (logo.style.fill === "black") {
+        logo.style.fill = "white";
+    } else {
+        logo.style.fill = "black";
+    } */
+
+
     
-    console.log("hello")
+    //console.log("hello")
 
-    console.log(darkMode ? "LightMode" : "DarkMode");
+    //console.log(darkMode ? "LightMode" : "DarkMode");
 
-    document.body.style.background = darkMode ? "white" : "black";
+    /* logo.style.color = "black" ? "white" : "white"; */
+    /* document.body.style.background = darkMode ? "white" : "black";
     document.body.style.background ="#000000";
-    document.getElementById("wrap").style.background = "#232323";
+    document.getElementById("wrap").style.background = "#232323"; */
     
-}
+/* } */
 
 
 

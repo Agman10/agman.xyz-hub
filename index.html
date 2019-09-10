@@ -12,7 +12,7 @@
 
 <div id="wrap">
         <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve" onclick="Theme()">
+        viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
    <g>
        <path id="A" d="M800,654.3h125.3l-0.5-148.9H953v177.1H771.9l0-88.6l-724.8,0V409.2l22.5-22.5h58.9l22.2,22.5v132h-29.9V490H76.9l0.3,79.7
            l722.8-2 M76.9,421.4v38.7h43.8v-38.7l-4.8-4.8H82.1L76.9,421.4z"/>
@@ -64,11 +64,11 @@
         <!-- Modal -->
         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
+              <div class="modal-content" id="modalContent">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLongTitle">
                       Placeholder</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="modalClose">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="modal-body">
                     <p id="modal-text">Placeholder</p>
-                    <p id="modal-link">Placeholder</p>
+                    <a href="https://agman.xyz/" id="modal-link">Placeholder</a>
                 </div>
               </div>
             </div>
