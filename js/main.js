@@ -22,7 +22,7 @@ function modalFunction1() {
     modalTitle.innerHTML = "Space Invaders";
     modalText.innerHTML = "En re-creation av det populära arcad spelet Space Invaders.";
     modalLink.innerHTML = "Länk till GitHub repot.";
-    image.src = "images/spaceinvaders.webp"
+    image.src = "images/spaceinvaders.png"
     image.alt = "Space Invaders"
     modalLink.href = "https://github.com/Agman10/Space-InvadersFinal"
     
@@ -31,7 +31,7 @@ function modalFunction2() {
     modalTitle.innerHTML = "VG Currency Clicker";
     modalText.innerHTML = "Ett clicker spel som använder spel valuta klicka på frågetecken blocket för att få coins och köp andra spel valutor för att öka antalet coins som du känar.";
     modalLink.innerHTML = "Testa spelet här!";
-    image.src = "images/clicker.webp"
+    image.src = "images/clicker.png"
     image.alt = "VG Currency Clicker"
     modalLink.href = "https://agman10.github.io/clicker/"
 }
