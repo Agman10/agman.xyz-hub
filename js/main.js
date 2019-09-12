@@ -19,21 +19,21 @@ wrap.style.background = "white";
 logo.style.fill = "black"; */
 
 function modalFunction1() {
-    modalTitle.innerHTML = "Title";
-    modalText.innerHTML = "Lorem ipsum dolor sit amet, eu nam alii vocibus, eu nec omittam splendide moderatius. Veri volumus adipisci ne sit. Regione aliquando mediocritatem cum at, usu te principes accommodare complectitur, paulo doming cum te. Blandit voluptaria eum id, ne prima feugiat verterem has. Graece semper mel no, atqui movet equidem qui et.";
-    modalLink.innerHTML = "Visit the website here";
-    image.src = "images/placeholder2.png"
-    image.alt = "placeholder2"
-    modalLink.href = "https://agman.xyz/"
+    modalTitle.innerHTML = "Space Invaders";
+    modalText.innerHTML = "En re-creation av det populära arcad spelet Space Invaders.";
+    modalLink.innerHTML = "Länk till GitHub repot.";
+    image.src = "images/spaceinvaders.webp"
+    image.alt = "Space Invaders"
+    modalLink.href = "https://github.com/Agman10/Space-InvadersFinal"
     
 }
 function modalFunction2() {
-    modalTitle.innerHTML = "Title2";
-    modalText.innerHTML = "Eu impedit laboramus his, sea assum voluptua scripserit ne, sea zril labore constituto ex. Eu vis dicta fastidii argumentum, nominati eleifend repudiandae has eu. Vim omnis dictas electram ei, vel persius dissentiet disputationi ad, soleat molestie eu sit. Eu stet conclusionemque eum, et eos erat dicam corrumpit. Eu usu forensibus concludaturque, eu illum praesent duo. Nemore verterem oportere nec ea, quo ne lobortis platonem incorrupte.";
-    modalLink.innerHTML = "Link: 2";
-    image.src = "images/placeholder3.png"
-    image.alt = "placeholder3"
-    modalLink.href = "https://agman.xyz/"
+    modalTitle.innerHTML = "VG Currency Clicker";
+    modalText.innerHTML = "Ett clicker spel som använder spel valuta klicka på frågetecken blocket för att få coins och köp andra spel valutor för att öka antalet coins som du känar.";
+    modalLink.innerHTML = "Testa spelet här!";
+    image.src = "images/clicker.webp"
+    image.alt = "VG Currency Clicker"
+    modalLink.href = "https://agman10.github.io/clicker/"
 }
 
 //When you click the logo dark mode turns on and off, changes the colors to dark and bright
