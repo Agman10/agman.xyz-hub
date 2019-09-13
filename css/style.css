@@ -48,9 +48,6 @@ body{
     }
 }
 
-
-
-
 .image{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -75,10 +72,16 @@ body{
     background: none;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(200, 240, 255);
     display: block;
+    padding: 0;
 }
-
+img{
+    -webkit-user-drag: none;
+}
+.modal-button:focus{
+    outline: none;
+}
 
 #modalClose{
     color: rgb(210, 50, 50);
