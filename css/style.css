@@ -26,7 +26,15 @@ body{
     fill: rgb(100, 70, 200);
 }
  */
-
+#X{
+    fill: red;
+}
+#Y{
+    fill: green;
+}
+#Z{
+    fill: blue;
+}
 .container {
     position: relative;
     width: 350px;

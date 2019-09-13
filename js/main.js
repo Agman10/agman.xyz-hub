@@ -11,6 +11,9 @@ var wrap = document.getElementById("wrap");
 var logo = document.getElementById("logo");
 var modalBackground = document.getElementById("modalContent");
 var modalClose = document.getElementById("modalClose");
+var logoX = document.getElementById("X");
+var logoY = document.getElementById("Y");
+var logoZ = document.getElementById("Z");
 
 //style
 
@@ -48,6 +51,9 @@ logo.addEventListener("click", function(){
     logo.style.fill = darkMode ? "white" : "black";
     modalBackground.style.background = darkMode ? "#232323" : "white";
     modalClose.style.color  = darkMode ? "rgb(240, 80, 80)" : "rgb(210, 50, 50)";
+    logoX.style.fill = darkMode ? "lightcoral" : "red";
+    logoY.style.fill = darkMode ? "lightgreen" : "green";
+    logoZ.style.fill = darkMode ? "lightblue" : "blue";
     
     
 });
