@@ -32,16 +32,35 @@ function modalFunction1() {
 }
 
 function modalFunction2() {
-    modalTitle.innerHTML = "Space Invaders";
-    modalText.innerHTML = "A re-creation of the popular arcade game Space Invaders.";
+    modalTitle.innerHTML = "Space Invaders JS";
+    modalText.innerHTML = "A re-creation of the popular arcade game Space Invaders made in javascript, not finished yet.";
+    modalLink.innerHTML = "Play the game here!";
+    image.src = "images/spaceinvadersJS.png"
+    image.alt = "Space Invaders JS"
+    modalLink.href = "https://agman10.github.io/SpaceInvadersJS/index.html"
+
+}
+function modalFunction3() {
+    modalTitle.innerHTML = "Litterary War";
+    modalText.innerHTML = "A space shooter that uses text as graphich. Not finished yet.";
+    modalLink.innerHTML = "Play the game here!";
+    image.src = "images/litterarywarBeta.png"
+    image.alt = "Litterary War"
+    modalLink.href = "https://agman10.github.io/LitteraryWar/"
+
+}
+
+function modalFunction4() {
+    modalTitle.innerHTML = "Space Invaders Java";
+    modalText.innerHTML = "A re-creation of the popular arcade game Space Invaders made in java, not finished.";
     modalLink.innerHTML = "Link to the github repo.";
-    image.src = "images/spaceinvaders.png"
-    image.alt = "Space Invaders"
+    image.src = "images/spaceinvadersjava.png"
+    image.alt = "Space Invaders Java"
     modalLink.href = "https://github.com/Agman10/Space-InvadersFinal"
 
 }
 
-function modalFunction3() {
+function modalFunction5() {
     modalTitle.innerHTML = "VG Currency Clicker";
     modalText.innerHTML = "A clicker game that uses video game currencies klick on the question-mark block to get coins and buy other game currencies to increase the ammount of coins you earn.";
     modalLink.innerHTML = "Play the game here!";
