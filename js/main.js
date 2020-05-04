@@ -2,6 +2,7 @@ var modalButton = document.getElementById("hello");
 var modalTitle = document.getElementById("exampleModalLongTitle");
 var modalText = document.getElementById("modal-text")
 var modalLink = document.getElementById("modal-link");
+var modalLink2 = document.getElementById("modal-link2");
 var image = document.getElementById("modal-image");
 
 
@@ -25,38 +26,43 @@ function modalFunction1() {
     modalTitle.innerHTML = "Pumpkin snake";
     modalText.innerHTML = "Snake but you play as a pumpkin who collects candy to grow.";
     modalLink.innerHTML = "Play the game here!";
+    modalLink2.innerHTML = "Link to the github repo.";
     image.src = "images/pumpkinsnake.png"
     image.alt = "Space Invaders"
     modalLink.href = "https://snake.agman.xyz"
-
+    modalLink2.href = "https://github.com/Agman10/Pumpkin-Snake"
 }
 
 function modalFunction2() {
     modalTitle.innerHTML = "Space Invaders JS";
     modalText.innerHTML = "A re-creation of the popular arcade game Space Invaders made in javascript, not finished yet.";
     modalLink.innerHTML = "Play the game here!";
+    modalLink2.innerHTML = "Link to the github repo.";
     image.src = "images/spaceinvadersJS.png"
     image.alt = "Space Invaders JS"
     modalLink.href = "https://agman10.github.io/SpaceInvadersJS/index.html"
-
+    modalLink2.href = "https://github.com/Agman10/SpaceInvadersJS"
 }
 function modalFunction3() {
     modalTitle.innerHTML = "Litterary War";
     modalText.innerHTML = "A space shooter that uses text as graphich. Not finished yet.";
     modalLink.innerHTML = "Play the game here!";
+    modalLink2.innerHTML = "Link to the github repo.";
     image.src = "images/litterarywarBeta.png"
     image.alt = "Litterary War"
     modalLink.href = "https://agman10.github.io/LitteraryWar/"
-
+    modalLink2.href = "https://github.com/Agman10/LitteraryWar"
 }
 
 function modalFunction4() {
     modalTitle.innerHTML = "Space Invaders Java";
     modalText.innerHTML = "A re-creation of the popular arcade game Space Invaders made in java, not finished.";
     modalLink.innerHTML = "Link to the github repo.";
+    modalLink2.innerHTML = "";
     image.src = "images/spaceinvadersjava.png"
     image.alt = "Space Invaders Java"
     modalLink.href = "https://github.com/Agman10/Space-InvadersFinal"
+    modalLink2.href = ""
 
 }
 
@@ -64,9 +70,22 @@ function modalFunction5() {
     modalTitle.innerHTML = "VG Currency Clicker";
     modalText.innerHTML = "A clicker game that uses video game currencies klick on the question-mark block to get coins and buy other game currencies to increase the ammount of coins you earn.";
     modalLink.innerHTML = "Play the game here!";
+    modalLink2.innerHTML = "Link to the github repo.";
     image.src = "images/clicker.png"
     image.alt = "VG Currency Clicker"
     modalLink.href = "https://agman10.github.io/clicker/"
+    modalLink2.href = "https://github.com/Agman10/clicker"
+}
+
+function modalFunction6() {
+    modalTitle.innerHTML = "Unity platformer";
+    modalText.innerHTML = "A work in progress platformer game made in unity";
+    modalLink.innerHTML = "Link to the github repo.";
+    modalLink2.innerHTML = "";
+    image.src = "images/unityplatformer.png"
+    image.alt = "Unity platformer"
+    modalLink.href = "https://github.com/Agman10/unity-platformer"
+    modalLink2.href = ""
 }
 
 //When you click the logo dark mode turns on and off, changes the colors to dark and bright
