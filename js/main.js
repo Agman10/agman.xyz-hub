@@ -88,6 +88,28 @@ function modalFunction6() {
     modalLink2.href = ""
 }
 
+function modalFunction7() {
+    modalTitle.innerHTML = "Ball Game";
+    modalText.innerHTML = "A platformer where you play as a ball and you can't jump, you unlock levels by collecting the star en enter the exit portal. If you destroy all boxes in a level you get a gem. The game is based on the ball levels in Crash the Wrath of Cortex.";
+    modalLink.innerHTML = "Link to the github repo + download.";
+    modalLink2.innerHTML = "";
+    image.src = "images/BallGame2.png"
+    image.alt = "Unity platformer"
+    modalLink.href = "https://github.com/Agman10/BallGamePlatformer"
+    modalLink2.href = ""
+}
+
+function modalFunction8() {
+    modalTitle.innerHTML = "Clönk";
+    modalText.innerHTML = "A Rougelike game where you choose powerups and the boss get the ones you didn't pick";
+    modalLink.innerHTML = "Download the game here";
+    modalLink2.innerHTML = "";
+    image.src = "images/Clönk_1.png"
+    image.alt = "Unity platformer"
+    modalLink.href = "https://iron-evil.itch.io/clonk"
+    modalLink2.href = ""
+}
+
 //When you click the logo dark mode turns on and off, changes the colors to dark and bright
 logo.addEventListener("click", function () {
     darkMode = !darkMode //darkmode switches from false to true
