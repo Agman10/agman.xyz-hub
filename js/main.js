@@ -89,7 +89,7 @@ function modalFunction6() {
 }
 
 function modalFunction7() {
-    modalTitle.innerHTML = "Titled Ball Game 1";
+    modalTitle.innerHTML = "Ball Game";
     modalText.innerHTML = "A platformer where you play as a ball and you can't jump, you unlock levels by collecting the star en enter the exit portal. If you destroy all boxes in a level you get a gem. The game is based on the ball levels in Crash the Wrath of Cortex." + "<br /> <br />" + "you can play the game in the GameBuild folder in github";
     modalLink.innerHTML = "Link to the github repo + download.";
     modalLink2.innerHTML = "";
@@ -100,13 +100,13 @@ function modalFunction7() {
 }
 
 function modalFunction8() {
-    modalTitle.innerHTML = "Clönk";
-    modalText.innerHTML = "A Rougelike game where you choose powerups and the boss get the ones you didn't pick." + "<br /> <br />" + "I work mainly on the AI, traps , new projectiles and the new ability system and other...";
-    modalLink.innerHTML = "Download the game here";
+    modalTitle.innerHTML = "Iron Evil";
+    modalText.innerHTML = "A Rougelike game where you choose powerups and the boss get the ones you didn't pick." + "<br /> <br />" + "I work mainly on the enemies, traps and abilities and other...";
+    modalLink.innerHTML = "Playtest the game on Steam!";
     modalLink2.innerHTML = "";
-    image.src = "images/Clönk_1.png"
-    image.alt = "Clönk"
-    modalLink.href = "https://iron-evil.itch.io/clonk"
+    image.src = "images/IronEvil.jpg"
+    image.alt = "IronEvil"
+    modalLink.href = "https://store.steampowered.com/app/1795100/IRON_EVIL/"
     modalLink2.href = ""
 }
 function modalFunction9() {
