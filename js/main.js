@@ -101,7 +101,7 @@ function modalFunction7() {
 
 function modalFunction8() {
     modalTitle.innerHTML = "Iron Evil";
-    modalText.innerHTML = "A Rougelike game where you choose powerups and the boss get the ones you didn't pick." + "<br /> <br />" + "I work mainly on the enemies, traps and abilities and other...";
+    modalText.innerHTML = "A Rougelike game where you choose powerups and the boss get the ones you didn't pick." + "<br /> <br />" + " I work mainly on the enemies, traps and abilities and other...";
     modalLink.innerHTML = "Playtest the game on Steam!";
     modalLink2.innerHTML = "";
     image.src = "images/IronEvil.jpg"
@@ -117,6 +117,17 @@ function modalFunction9() {
     image.src = "images/QuantumArena_2.png"
     image.alt = "Quantum Arena"
     modalLink.href = "https://drive.google.com/file/d/1lP-EXODsm34D7w7LCjQnq5EVwldezLl2/view?usp=sharing"
+    modalLink2.href = ""
+}
+
+function modalFunction9() {
+    modalTitle.innerHTML = "Fight Game (working title)";
+    modalText.innerHTML = "A fighting game I have been working on my free time." + "<br /> <br />" + " It also includes an alternate gamemode called FightBall";
+    modalLink.innerHTML = "Download the Game";
+    modalLink2.innerHTML = "";
+    image.src = "images/FightGame.png"
+    image.alt = "Fight Game"
+    modalLink.href = "https://drive.google.com/drive/folders/10UOrQaYFt5s8ktwFvG0AujMMWJgyVly4?usp=sharing"
     modalLink2.href = ""
 }
 
