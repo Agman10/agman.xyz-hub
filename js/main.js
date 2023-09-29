@@ -120,7 +120,7 @@ function modalFunction9() {
     modalLink2.href = ""
 }
 
-function modalFunction9() {
+function modalFunction10() {
     modalTitle.innerHTML = "Fight Game (working title)";
     modalText.innerHTML = "A fighting game I have been working on my free time." + "<br /> <br />" + " It also includes an alternate gamemode called FightBall";
     modalLink.innerHTML = "Download the Game";
